@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Biblioteca de Filmes</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#recomendados">Recomendados</a></li>
+                <li><a href="#lancamentos">Lançamentos</a></li>
+                <li><a href="#fantasia">Fantasia</a></li>
+                <li><a href="#romance">Romance</a></li>
+                <li><a href="#thriller">Thriller</a></li>
+                <li><a href="#terror">Terror</a></li>
+                <li><a href="#comedia">Comédia</a></li>
+                <li><a href="#aventura">Aventura</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="search-section">
+            <input type="text" class="search-bar" placeholder="Buscar por filmes ">
+            <button class="search-button">Buscar</button>
+        </section>
+
+        <section class="recommendations-and-releases">
+            <!-- Recomendados -->
+            <section id="recomendados" class="genre-section">
+                <h3>Recomendados</h3>
+                <div class="grid">
+                    <div class="card">
+                        <h4>O Senhor dos Anéis: A Sociedade do Anel (2001)</h4>
+                        <p>Um hobbit embarca em uma jornada para destruir um anel mágico que pode dominar o mundo.</p>
+                        <!-- Link do YouTube apenas nas imagens -->
+                        <a href="https://youtu.be/ICCDDv2p8rA?si=X8bkr0DhxSfAEb_V" target="_blank">
+                            <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg" alt="Clique para assistir" class="play-image">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <h4>Piratas do Caribe: A Maldição do Pérola Negra (2003)</h4>
+                        <p>Um pirata excêntrico e um jovem ferreiro enfrentam piratas amaldiçoados em busca de um tesouro perdido.</p>
+                        <!-- Link do YouTube apenas nas imagens -->
+                        <a href="https://youtu.be/2PBYQDDkubM?si=bLuTxhc5ZdNBLho3" target="_blank">
+                            <img src="https://br.web.img3.acsta.net/pictures/14/02/06/15/11/493568.jpg" alt="Clique para assistir" class="play-image">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Lançamentos -->
+            <section id="lancamentos" class="genre-section">
+                <h3>Lançamentos</h3>
+                <div class="grid">
+                    <div class="card">
+                        <h4>Sonic 3 (2024)</h4>
+                        <p>Sonic, Knuckles e Tails se reúnem para enfrentar Shadow, um novo e misterioso inimigo com poderes diferentes de tudo que já enfrentaram antes.</p>
+                        <!-- Link do YouTube apenas nas imagens -->
+                        <a href="https://youtu.be/xjbxG5VEo4M?si=9UBDyoaaI6b8PSiU" target="_blank">
+                            <img src="https://ingresso-a.akamaihd.net/b2b/production/uploads/articles-content/f64cf04e-7707-4f9d-9f65-34534f0f59cc.jpg" alt="Clique para assistir" class="play-image">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <h4>Godzilla Minus One (2023)</h4>
+                        <p>Devastado pela guerra, o Japão enfrenta uma nova crise na forma de um monstro gigante, o Godzilla.</p>
+                        <!-- Link do YouTube apenas nas imagens -->
+                        <a href="https://youtu.be/1H1ptTJBGNA?si=g4agGAhtb6Zk9D9V" target="_blank">
+                            <img src="https://m.media-amazon.com/images/M/MV5BMjc5MjllMGUtMDIwMS00ZDVkLWEzODQtM2NlMTMwMTZhNThmXkEyXkFqcGc@._V1_.jpg" alt="Clique para assistir" class="play-image">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="fantasia" class="genre-section">
+            <h3>Fantasia</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>O Senhor dos Anéis: A Sociedade do Anel (2001)</h4>
+                    <p>Um hobbit embarca em uma jornada para destruir um anel mágico que pode dominar o mundo.</p>
+                    <a href="https://youtu.be/ICCDDv2p8rA?si=X8bkr0DhxSfAEb_V" target="_blank">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMjc5MjllMGUtMDIwMS00ZDVkLWEzODQtM2NlMTMwMTZhNThmXkEyXkFqcGc@._V1_.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Harry Potter e a Pedra Filosofal (2001)</h4>
+                    <p>Um jovem descobre ser um bruxo e entra em um mundo mágico cheio de aventuras e mistérios.</p>
+                    <a href="https://youtu.be/9fIObnIGMlI?si=OHBa2CgOp1CdoOE1" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/1/1d/Harry_Potter_Pedra_Filosofal_2001.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Pan’s Labyrinth (2006)</h4>
+                    <p>Durante a Guerra Civil Espanhola, uma garota encontra um mundo mágico cheio de criaturas sombrias.</p>
+                    <a href="https://youtu.be/AcHasH-nLhU?si=_zoj4ANmMOLBPfO5" target="_blank">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFhUXFxoYGBcYGBgYGBgaFxgaFxgaHR0YICggGB0lHRgYITEhJSkrLi4uGCAzODMtNygtLisBCgoKDg0OGhAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIARIAuAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAIEBQYBBwj/xAA9EAABAgQEBAMGBAQGAwEAAAABAhEAAyExBBJBUQUiYXETgZEGMkKhsfAUUsHRI2Lh8QcVU3KSsjNDgqL/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EACERAQEAAgIDAAMBAQAAAAAAAAABAhESIQMxQRNRcWEi/9oADAMBAAIRAxEAPwDxqOxyFFA4CCpRFrhsVhVSWmywJuZZBQkgAeGBLBILkZ3Ub/OjkrwgZhMOhe9k1odwr/kNoCVfhQwy4vPFwxSOVWbIHNWK25gK2exjsgYXNMCgopUrkIFUJCsw1qVDkO1TWK4p5KIIhyZcW+IRIKD4aVhTUzGoP8O7UI/8osCXSWFREzFfhlKWUpUKqyADKAMqsgpYheWrGjuTSHMBclCmVEiXgyY0UrDYZwcqwMyu5BJyM50DE7t1ibP4fLsJa3blHwvlOWx1UUF9gRrGswk9srlb6ZZOET37VhGSnZXy/eNUnhksh/DmAUIN0tmd6EH3SAz3a1Y7guHAKBUhUxOqQGuwFX2U/pvFyRN2ywkIOrdx9iOTMCRGvPCkeHlKFE5lnMAHYhKUdaHMWfVtaRJ+FSh/DlL1LFyGzMHD05cx0LpFw4guhN/GX/Dxwy60jbKwsmal8pBQAFJAAIV8TtcHQ/y9TFQJEtClOgkGWkCzheZBWoZgQKCY3cWuCwuSlSnN3gMyXGgmS5AAZKswU5qQFJzWFSxKe9XjsxWGL5gsuaZUhLDMoswNTlyir611hX+Cf1nlyxAJkqL9JwxA5FvR2PKWAzEPUOXbZhQuWjifh0qUChTchSVAKPKpJUGFswzC5HYWi/xUv+qBUuAqTFziZ8gB5aGWCPeGdKgU8zhVEsSWvbSKlQeMrGsoJEdjpEKJWaBDgIL4dYdkaHqlsMCCIEdCawVKpYLKzAbgAt9IcmitdQIkSkQ3wSCG5gagsajobDzLjaJUsgaF9rf3jXGxllT0SoseHcKKq6R3DYRw5o1xrTtEfG8bmIBQhQSCKsA9nufKoZmjTljO6y7vUSpuHLsBEjBpQk87NuS1g5v5xjJ2OWXdRL6kn1GxifKUuYJMtAygoUDoFV51KJ6gV+ton836ir47J22czimGTyFbKdgWJS9rh4kfhgUZ86QGoQQARrGKXh1JPOQXFaVqaB3vDzJXcfmAcBzltVnip5Ky6amVjpahlSvMbOl22+zDZiiaEJJuNfnpGUOHUo5UXYvUuWuGAtanURJ4ZNWicZShzGWEJs4YlSdx0gnlv2Hx/S8wuIUmYFhPRSRqNR99IsOMYNJZafdIcHvGXTLUtphJdxzFRZnCTQEMKk//ADaJq5WJCmRPUEqHKhX8RLMDTMSRVy+xtD/J/ha2dNkMHiGpSVBxETEYbEIdU0kps4GdHVwCCnzSIjyuII91QT3S9uyg7WML8kVwopXzNAMXLEOmgUUKuN3HSHzZgaiEsB7pUrX5iFTitnS2gJES1P7pIc2FjWobe0RpiTGV/bSBEVhQ8JhROmmxMwf7eHIQVB2LfXzhpSwFLsSTo/8ASHVAbMW8ho1T+kP+j+CkBLMxAqqtKXT30pWAYrEhZJCLijklu3k0OEh9vP8AR7+jRZYTDhNkuT8T3avlD1ck3KYoeGwpy51uwFEg13c0Ibp9Imy54yOlwDS5GjAKIDULeReA41Skkg2+nwxXZ2t9702gv/JSXPurdPFSkUoL17k6aOXfqdhA5mNBBY3ah+HV/wDsOwGkUxVCWgxHKq/FCnM9Is+CY8y3OUKABZ7jMK+Ryj0iqyHYx2Uti4Z9Hr9aQpdVeWO5pcY9aVLQrMq9U2IN+r/3EaPgeWeicohICZgHKXcPmU2rVp5RhysihrV93dv2jR+znHkSMQUrlSyhSgkrAYpyukKDaPUjqYqZMcvH1o/B4NZnryLCpRUoJIUCFFn5a6B/QwXjExMqYJpSzSwhO5JDkgGwBVfV9oicX4YpCziMO7Pm5WcOCpxlbSjNTzgHGeLTp0oJnpYpIyukpUyuYXuGF22rWHsuO7uLn2cxUhagPESC7ALISaIUzZmfmKetI1P4SiVKQBmDnKdqNYOmo016R5XNwYyZrHUGzecLBcVnyaImLSGYpNUkEflVSo1aDlYqYS+nrSpetmdtW1+hYHvSM1xvhWHWH8IhRJLy2STdiAeXvrWIvDPbhKnE9ORRL5kupD3qkl0Vazipgpx+ZJynMkk5auKBqf8AJ7AX2aHO0XeKgncCOQqSoqUD7qk5VEHQMo5ldB9WcOEmKCJiTflPMDygZgsVsWINW92NnwbABKXUKqTsCGJKW5taGho76CAcT4LKy/wiiW6y6fhUXZn+E0Iaz7Qta9Hvc7Y5ZQ5+K/k31000gBch9LfUgdKfSDrwS3UFUKXcUJTqXF06U1eAzQUFgsWehoXAN9QbwbXoJusKHJksAfsQoNHs6WkX8/L+0Fw8vNU+W3aApLP1Zurt+0WODla3O1PlBjNjO6iSjDP+gZvI6HaLDCS0tQ+tCCGoHszP5esBUxiALC4sfv8AaGz8W6h8RJOVLsNnOx+++25HNq03jOJRZIBI10+6D0il8MmLb8AojMsB3NNvv9oZjFBAy+mtCxD7f1jLLvut8LJ1FcmSYMFAM+jUFehv91gS5xNAPOBhO5jNprfshPawrvA5cxnoC9wfukcUmschK1EvIyw1QGUN2uxaFjJLT1pB+Mse9f1+URsx3MT8HjENlmJd6O3M3Q6f0ipqpu520uH4lLVKRISvJNDKzKOUAgpSz2Iy5h9vFP7R4l5yiQSGCUKCeWlV5STuet4Dh+JITMOZJUhwzNmYUFT09YsRhJeKStSSUjPS9DkQDQ3tpRvKH7Za43dVOKmpQDLqFFIrQiqX/VukOODlzAMiqhADDQ3NDVnLVp1gXEcCoHQkBjl2SAAW7fpFeAe3W0Leva5judUXFYJaLim4t/SO4LHzJR5DTYgEaix7mJWE4mU8k3mQbmhIHTcR3GcNBdcnmR001bodxavlBr7Bu+s2x9m/aCTNSlCmlzAkghRJCgA4ylWt6H8xuzxPxOIyklCCsEhzyjZJYksfh11rHlZG8afgfHkqHh4lSiQDkmEuxIAZTm1BXqd3h45Flh+lnxiUF1XKAYmubnAILs1ALFzqKdMlMkkXBCWrWotq1fvaN7NkgAAPQOxNwHAcm6X639Yz/GMEpRLOzgilaUY1tbs8Vlj1tGGfeqpErcUDfbU9PrHIYQUvrcee3yMdhTKfWvG/HZaKg1iyw8w070+/vvFWlf8AaHzJxb7teFjloZ48h8fi/hT6wPhquYOfRn+bfIwA0A/mr0aLKa2QCmZTpo1jX0dIHlBvd2Vkxmol4vGZElITzOxLgs9e/qIpVgqf18/sxLCS5cl6ggG/T6x3ESmWUpZxRvr5O8O9ljrECXLpWGKWLCpNP2iwXgMoClgAUDC+7Hf9BFv7O8F8bNMnpzS0ghIBYHchjVm+2g429Dl9ZPwyaAVevRtIfLwRP7AEx6LK9mcOhiUuzO9W11tSl9IGhfhqCxLZJAAmAGtATmowAbUjo1oOGvZ8/wBMngvZyYpnkzi9qZBvdQaJeI4GqWcpwmU6LWZqwOv8MsY3EmYkqKzOBSWaoG1n1d6QzEz5hPKquqiKO4fKNW3NP9wi+OKOWTB4XgYKsplrmKZ+VRlpFdly8zdbRHx3BZkpQJT4YNAy3L9416sSpJyoZJVZSwVKUbkgCq1dB5GjR1fBlzmWqaCz1A5hXQKDpNBV/KFxnpXOslgxMAJKVrDEFRZIG5Dgktudoj4iUhZBSeY3BIU53FKDo0egnhipSUS0JKk2JBTyU1SRUdQXEU3FuCJXsDooJALvY5W9YL47fRTOSsZPSzBSR1I0600rDsDLKZhyzAgpCic1jlB5S3vAmnnE7HYGYgsqpaihY9D1++9SUZWNL27XHSMrLGsssSFYUzKoTWxHUXD22iDOl5SUlnF2Lj1FDFhj15paVJ5cvwj3WVRTVuFAPuFp0AiLiVpUAoUNiICm4v8A2Z47QYeZR6IXqC9AdDqxO8WWNRzO2VxRzdq1HTMadIwkXf8AnZVLZXvJ11NL9S7fVnrF459arPPx97jvE5I94XYCljtaxp8oURsHJJJKy+XR6BR08hHYVm+1TLj0hKVU7R1KtT5UhjQ9KS3396xDUeUpiSWJuxF+nasdRiFBw76Va9K6gM3yiOQdj3/rEnDuo8surAAuokaUqNIabIn4eaQs1BCUj/aSr4X+3IbWJOGlgkrUoBKXKlUYN8I3V2iKjCZOVYYNmIcFnoOWz0tW0GxSxySkpzEAZQLA6DZxVRPUaRpOu6y4y+iRKmziQhJ6igygl79SBS9I3vD5IRKCE1ZCEsKAlNSok9SS394peE8PEtKAoqVzZ1AMxUPqAGjR8Ml5pudhkykbCnS9vp2epOPdK3fUEwnDUpygIu9aElWpPqd7CLWf7uQAE2AAttT+sdThMzuHSQQ1bG7vu8Zbh+DSZHECuYseFOmpTMzqzSwlAKWU9GJ8+sTctHMdrad7OSysKyFJAuC3nSx6hrwXC8Fly/dQHYs5J+ZcwPhvFJkqThE4lCiuaJaVrN0FdEFYIo5Dd3dossZxlMqeiRORlStmmgvLzKKsiVOAUlWRW4peJ5xXCgqwwpmAcWoHEPXggBRLdag+vlBOJImq8WXLSErQkFMzNbPmykgpsMpcV6O7hcOxxnJlzEJSqVMchQVzJaozJZku1szgw/yF+MBcthd6a382ilxmFIFH15d/2jVTsOxirx0lo1xzZZYsbxDC0Ju/apNG3Y/qIzHGeFlFX5SHJFW636t59Y3ePw5BBZ03od7nuD9ekUHEZeiiWyrFgTmvYUq1O8Hkks2fjtl0zEiUQVyixGXMFCoqA3YF/XLtFXNSxIpQtS1It5ry5rKqlBy12SohP316xStHLXTChQoUI0qRiyE5bC/rf5QoBLvWFFSp1BZockjeOoxBAI7fV441VeZjoax+/wCsCh5k4qJLsSGOV6jr6RLwOIQlieYj6ebRBkslQzOQ9hc+n0iySETMoSGYOaXLsAPKveKjPLXokeJOUqZ7qSpjMqQmlg1aAaRrOB4KRK55RK86SCVOVB2YjKGD1ob0rvXYLD/BzBQsag1LAgWrrGiwWHZIo7as4BuKWHkPrG2OP1lll8EWJbgEoQCkMSpKcw6g3AGz940/C5AKAzHrX5aRj/aFAH4bpiZRYWDklwNKBvKNRx6fM8Pw5C1ImqStSSkFbZRqwIdSilNRQZiKiIzy+Lxx+rYoypzBKlVqlN2JDsNWBJbVooPZORkVi1T5C058XMmSlKlK91QSEnMQyHyi5EExHGFTJGBnylKT40+UhaUkVBC/ERWxzJZwx6wCfKmThigmapGJkLEyQlTpmISEulKyGEyWshWqgAbvQY27ayaT+KcG8aTOTOIROnFQlgTVNyH+CwcPloo0uVdIPK4VMnBacZLlqTMkS5cwJU4K0GYVKDgEA5wQRUHs8V3E+KTBg/8AMZRyrmeEEAgKCZS5iUMxGpUpbhrgF8oiZOxcxc6dLRMTPw6ZCytbIeXOHuoCkMCW5srOKFw4dKSPZ7hk+QJiJswTQAlMqYTzKQnMU+J/MMzPqzxGwns//HlT0y04cjOZyUK5ZpUlmyp5SyjmzEA0FKuIeDGJOCwKsNNacqUlZCqpnFMsKKVk2KifevEzDcUVilSlSVqlq50zpKry1oXKcKTdwkzG0Lh3agF2tEQMVLDGkRMLjJ82bipWZIEmahCTlIJCkIWpy9DzEAjpFVw7HzV4JcxSphmfx+elMi5iUegSNKtV4uZaZ5Y7Dx8lR9z+5rT+va8ZfEKzrEu2b3nYkFALDuzgPcesX+Hx61SJPIpS1y5ZUs5Uh1JBKqKfLUmg/aK7iHDklgklS/ezEHmKWIfcP6VjbHLbCzVUPGMLLUFKSOZDBQA95Khc/wAwqX6+mQnIYt/Y9Y3UhBW+RIJzEElTCp90cp3HrGY4zhgkmgFS4BdunraMssfrbDL4qIQjqhCSIzWLKlOdgA5J0H3pqTChjt8oUPYFSWBO9I6CLmG5nBhphmlKSXlhLEvQdSqg7U+cWmEkKzzL0UHJNbE2Ndn7xV4NY8RClUYjzaNLgUBaplfemKc0qMrpuC1lHTSLx7Z5bi5wmCBQFFQSWFXcigoxFRaLHDKQElKloYAcoG5OYmthUijdIzmBUQgDLmCQHDO9weV0k1q9NLs8Txh0mchvjAcpRypf8oHvKod/WNeXTLiJxjFeIJPhy1koxCFqyS1Fkp1oNm00ja4KYkzwZZUpS28QlBypRLSpgDlAHMoAB3OYneGcOwgScotfLXs7lyT1esWeHVWn7xllGmNiMj2XkhKU5poCZ3jpAUlhNcnMKUDk8vu1tEiTh5IVOWSoTFAJmTC2YJTmYWyhLOaDUk7wXGYcrFCyur22Z2MYH2w4liMMrxChQeqC9iE5VgbgjQ/mO7RnemsaziHs+mbgzgsPOypQUAKV/EyZFJmJTRntqXrC47w6bLWcTh0BZWGxOHCikTk/mSdJgH/IU7m9lMAqTLyFlAgK8RKlFMwqq6UmksCzDoYujSEFRwVWGnolLw6lJTJdIlhgZZIZSFJUCRSjW2h+Jw2HlYn8SxE9SCgpRVUxLipQLkMBnLMLmB8S4BKmrKwZkqYaKmSlFClDZTUPdnGhEV3GcPJwmHXMmqnTUEgKGYAkrVlzKKEgq0qp7CABoxCZS5s1KyVzVAqloVLmrJACUkk5ZcshIqKihqYIrCok4SbLkmZMCkzGABWc0zMr4E6qUfWJPA8BLQghK1LQacwQXYM4YVfow16xJxWGlkuEhwXdmI7G4pFSJtUXDUEYOQkpKVJlS0qCgsLSpKAk0IBFR84hYoKd0nmPRiwetiK9Rr0iw4mlSHUhRWkVyKLq7AmpPRT3YNFXhsQFPdXZJJDUykAEhquDq8bYsMvagRJWiYsMkAsqjuLuQq4PMouxcvQ2ii4lIC5azLqlLKA+JvjJfmLUL1oDUWjScZwyFoSsHKEKUVaONAQK3KbixigVmStLOMwdKgSa3UCDQg1FbjuREZS9xWOvbNLTDE2MSsahlGgqXDWY7P2I8ojAU+9qRm2dns9Aw/cPHYZM07D9v0hRNOHJh0zaFo/33gikZg4vT0iwLhJTg0elvOLz2fVQylMWLO9Bb1YsR2iBwZAzp+7v+sWvs+imZLB3fa5oRqKCNMMe4yyy9tHhpAUShdFJAdnCXLghrEHLdzBuENnWctBy0D1Go6b2vFV+MKSs/EvlTskJ5VEE6ctIv/Z9koDkOeZ3Goc/L7pGs9Mr7X8skkKSS4DnRwPv5wTh/E5Sk5hMQQSbGr600il4x7Qy5PKqqlJYbMXqWqe0YGZxYKmZlA5hYhTBnowFr6RhnnrqNcMd9vacHikKc5kkC5zCKH2/wknFYUgTWXLBWjKxBLe6otRJpY6A1jzlHtCoPYgaly/r9YueDY8GRMmT1e9RIoK797xlytayaRvYr2uXLSmSolQBZCSpSQ5L/D9DSsbLF+20mSuYmao53T4aGoXORVbMDUvpHjqVCXPCkhwFOw72rB+PzjMXQEkJUosCTzKKn7MR2eA3q+E9ol4nFjDIWEBCM8wiil2DJcHU1bSKP264pORKn4TKVoExGWYTXLyrCVNdlU3YVvGQ4iE/iyuYkCiVFIoAooFKWrpAcfxmYvlSWSTYU+kK2jT2X2clyJGGly0YhE3KkArzJq2wFgLAaAQ3jM5Ex0S1AzpYSsJSeaqmS7/DftHkvDkTCDlW1b9flBk+Lh1jFJmHxHbOHIZqpINwdRXcVEOZlcXpXFEZcynJDUI0rY9NP2ig4lLRLmCYkqyqoopJrUAGmo83ftD+Be2UvFJMqYkImgFQZylbVJD1Sb0PrFfjS5OWxJYWHltHTj3HNl1TeJyhYFKs9QpWqWJPMAC1YpMViErSEL5VoAAIO1AXrYDTrD04k5yg1CUJylvdYk/9S21BtEHimJYqJcg7s7+Qv+0OWatFxu5FZxCUQ6TdJfSoVV6XqTXrEJMw5Sl9m8izdqv5Qeatw9XYgk3aih9T6QPB/wDkT1LbXpHP9b/Cx1FZfy/IsHHlHIjwomqg6frDpSWGY20G8cSl6aCpMcmKfy0iwm4TEAE7qs2hJFfT6RfcBw4MkPTmUdHyhqVs7qjLSUkmNHwfGhCFqNVGmUhwSQ1elO/pW8O6jOanSxw8pKkrU1yyBSg92nWkajh84OUsKXAbTp9/tn1r5JSGqSH0FKkiL3BzQDvUafIx0Oes17ZzxNxSJcsglkSxcMsqNCfNNrOY1eD9hMIZaUzAVTT7y0kpZ9EpsAOoMZLj0pOHnGYRmlzF+IEimVSFAlT6FyS3ePR+F8WRMAVVJIBKSGIcb2PcFjHNru7b76mmD4h/htiUrUZK5RlMSkrUQpmdjykP1du0YiYo5U1JSLXaPo2VOBFKsWpakeTf4h8LRLxRCQlCFoStkgAAklKqC3uk+cRl00xu2LmGxJ/e8WnAuIKTNWoLUnMkksWezCm0QcUCUAhIygAZqu7B/m9YjImVYD4Wvrd4i9xQ3EJpUtRJckvdyfPUw3h+FXOWmXKTmmKLJSNdT5AAnyiOcx8o0/8AhviEIxsvOKkKSkvZZDB+4Kh3aHIVbHBf4dlEsZ8SrOzslIyAtQV5iLah2MZ32h4BiMOUCaSUPyrQTkKlOa2ymmvZzHo3tFxcSJalqDsUEdQVpSR35vnE7GyApJQoBSTQpLEGtaG47xVxlRyseE4qb4E5ExDcrGmwoRSz1HYxtMeAsGYActDWhL9tP2jKe1WCMmauWfdclFi6TUft3Ea2ZmMiW4AHhoOzOkPT9I08G5uI82rqs3OCkzrEHKGB/wBzF+lYr+MqBSgGhzLK97/t9YtccHYkEkUo5cBwRdnIUa9Ip+MB/DJUFOl8w+K9Tq/7Q8+twse9VXzJgLlqqPoKsPkIj5ilQIuC/oXiWlLIUqxS1N87h/LL84iN+naMq1g+LCQstZ6EbGo+UKCYgBkuzgZC2re78iB5GFBRHcP7wSNjm9C8QxEpHKgq1Vyp7an73iMBDpwaUtjr+wi/4WrNkBYMo16ioDRnkKDxf+zsxOVYVYVtWwLjry/OKwuqnOdNHKrMLgNLDeatPT6xOkJYk6E0irw8xk6us5nNz/a3lFjhpjgOdf1rHU5R8Xw+XPT4czM2hT7wLmoemph2B4TjJagiXOlFASEpK0kqSBYFqEhi1flSIuI4qiSbhSn5UAhz1OwuXMV+L9pMRfmSS5CZbco0zEi+tDGHkuMv+tsJlY1PG/aUYWX4EjnmpHMpTlKVKLkmtSSSWej+UeXDHqXNmqnKUtSw6io8xIsLUGUmlhpEiTOmELUr3lF1ElyQSNSe9zrFfKljxDelC+9H+cYW7bToOfOIRkan6AmJWO4OqVhZE9V5y1ZRsgJGU+ZJPZoNK4eZ01EoAuspQlruS6lNsE5ifKPU/aPg6Z+FMgJAZP8ADtyqQORttuxIiscdpyy08lmS3l+f2/ytEThuKMuaiYGdCgQ9Q6S472i44WErQnNrR73AAilx2GKFKBuCfq0Sp6xiOLy+KYSZh0MieUhQQosCUEElKttDqHrSAK45xCVKCJ2FmFTMZgSFvu/hFQHdhHmmFmqSErSpSFJqFh6GwFKg3r1jf8L9v2QEYoZqUmorm7hgHHl2hylYpMPh5mMxqTNlKASSpZUlQ5QAEprZyGamvWNNjw4H0i5Tj0TUCZLUFJNiPodjFJiDT1jp8eOo5vJluqAJ5yn00brGf4igZyAGJzKZ6CuVx0JBPYiLvi+IEtQWokA9z10jN8Qxmaoo7HyDsD6xHlvxfi37Qpiv0+/pDEqh3iV8/v8AT0hKQ1YxbCAu4d81fMW/WFHEuCCOl97tChg/FrdXQAAdoDBFByYGRAcOdjQwfDTykuD62uD9QIjQSUpuohG2GFxaVkKA+EBq0LnrX6RPm44IllaiKWfU6AdzGHROaqaVDh6fuIJip+e702USPQ2jWeXUY3xbok6epZKlEgnUAfXSJ0qYwKiynSxvXQd6DyimSnZzB8POUCAz9IxvbVLxE9SUsFab6l37QLCKZL15lbVLB3+sFw2CXMJJZKdyRu9K1iwRwoqUybAUsaW8jfrTrRyFs/2MzKx8gkOHmD1lLt5tHq8uW5yqFIxfsJw0figahMlJUomgYpKQ+3vP5GKOTx/FniIJmJzGZlyKmDwMpLMC4SzMxFSdyWNY5aRljtIw/CPw0+bLYkS3KSNnZN/5TbqGMZ72sw+WdSxSlT1YvU36ufONj7czfD4gVAKCcqM1feYAuPl6RR8Vx0uckJmJNiQfyEkgg6sGBvV4lcZiVisoys4Iq9awxS2JHwu5S/7R3FSQk8qnGhgKnN4lSTg+IzJKgqUtQbq4I2IsRG34dxMTpIWSkKsoDRXa438489yQaXPUkMg5XYliXOUuH7RphncWeeHJqeOplrQ6vhtUip+sZviM1BU6EgBmoGs9e+nlA5s9cxgpT61ag1JgC72pBnnyoww4wk7wgutYRVDUisSoQK+d47HZaQVVbzpWFDK01VzHHhyxDWhLPA7QWUNwIAIMgkVcesAMN6Wh4P20dUsHRu0cQYAPJlO5VypG++wA1gyQPgQovZSnHo1NoGpYUwaxNO7ftDitRoQWtanoIROoxKkkBKgxNjVnpV9PONFwCepCkqPUACoJIofNhbaMzJlg0Ac3zA0AaoIavf7Gz4XwaeiTLWkFpiVkJdlABWRRYsGIr2eGWjOJYxUtM1QUoZ05GB94mgTT3rE+UZnFqUO9qVaNDjcK4Sq4SDTR1EIf0p5mM3iJ/KT/ADKL9if2iVRdYqf4iJalF+RKRV2CRlbehBHlFecUEEuApLMQwL13IpRy/SDcTTlK2disqAa2apbzr5mKhUtR1bu/7QyWWKwklcvNKIzs5lpLkeoD7lgG9TFfxDhC5YccwOjHMmj1HbWH4eTMqU8wu6WVbtY1F2vB+GcUWmYoCYkXAWSA7ncb0hEo88dAJ0MW2OnICilQCnIUSlzV6hz5WbWK5JexJb0HzgM+WQno+5Y02iPPZ6Q5Ycx1Uph9mAACHoGsNZo48MhQkqUw1/vCjuDJzAb0PbWOxUm026I/rDYcm7GEtDH6GEsgIeEQwQRJMBkUQREobmOIeJCQNaQEkcOn+GXKXL0IJDBtwHHrGi4VxFSlKy4UzVaA5gASwdRN+9Iz0mYQRlWQ1i9vt4scFjcQHyFXk5vEWUbjYYaUrKVTsHhwopY/w86xa4BY6FnNrxaYXiq5aPDlypZCCMgYICez+6WceUZBOMnFvEUvLVwFIR9Rrax8oky8ZISPdJLD3phUbO9Gf0ETdhpOKzJeIQETVKlVunIXLECm1i3QR5xhOBJmTRJ8Zkkz0hWTMSJZCQWBFVZiejRssJjkKYJyJ2dDnzUvWm/6xUYDH4YzwlEwpUkzmJBAeYtOYJJuWBr6QY2q6S+IcE8SWkSpcxSgkJK8gAVlFS5UXNLdYopvsjNYqmLEsDRVVMKWLNQP5dIucbi+aqlGwNU1Y6kfde0W+B41ITVSUAWYlBP0HpW8OXaa8xx0pMrlTzO/MxALHR7s0V0tQzOWb72j1nifGsDMBBTLJ0dKabXEYn2iEmYQULQGLACmwNDsIvSZlv4pTPemnSBzJoaCTZCQeVRV5N9YEmSneAwFzCY74tKwQoTuYDMbSEDSYclLw0CHtvb79YYEQQHPl66R2I8KFsJN7w8GjXAgUIGKNJwuEXMVlQHoS9AAEgklRskAC8Ow+HUqoytaq0J/7EEwThfEfCUo5QoLlqlrBo6V3qLFwC/SFK4hNAATMIYUt2gM5OCW5DJfXnl60/Mx1jqpJQHIQ1LKSo1tRJgp4soIylJzXz5zfNmBZmoQC0RVcSmkEGYWIY2YgwgnYjMhgos6QoF/eSqygRfX0iOJxFQr0JH3rCx2MXNEsBGVMqWlCQHNPecndRL+cRQhTPlPp0/r84E6T5KlqC1OcssBSi7AOWGtybAVLQNOKINCx7sd47h8WtMmbKyZkzCkvV0qRYhhWiiG6x3/ADCeXOZZu5Z730g0YyxMmJBo1aZkj5KIMM/Br6ds8un/AOq07wEY+eK5l06DftvEubxVeTL4awpvfzE96M1Q4haAMwLQNCHpzJVXyLjWrQEz3oa9P7R38fPGqrvbcvtSscXjp7EFSmsaBvpBonZ8pSAgqSGUnMk3BBcaauCCLgiAHE7AQXGYxS5cqUEZUykqAuSorVmWouNTppENUlVOU1ZqXeGNQeTLWvMUiiElaiWACRRy+5IAFyTApOHUtykC7VUhP/YiJOExKpaJ0syyUzUhKncMUKzJUCNjpYwM8UnU/iKpa3batIAGOHTTonT/ANkvUt+b+0BxGDWkZlBLdFoJ9AXixHHVZMqgVLqy87MTY5WalO7REPFJw/8AYr5ftCNHOEUEJmNyKJSFAg8wukgVBZjXQvCmSFAOWGwcPEhfET+HEnKAPFM1StVKy5RSyQAT3eISlEl4CdBa194UcEKAxY7HWhyFttFGSEPqIRl9RDwt9ocD1Hp/WAjQnrDSnt6wZK+oEdJO49IBs0z115+9b/vBE4hX5i+77sPOw9IHXp6Rw+Xp/WAhfHX+d367tf0ELxl3zl932t9fnAjWlNPu8dVQsWB2NDADzOV+f7/vHRiF6LgSltQtTe/zhKPVMAPSuYzA02FB8rQjiF/n+mkCTMqziHqmaEp8xWECXiFtVZ7fN/WGeKshiugbbS30EJ21TCKuqfSAHLnLIYzCQevSAZOoghVcOkeX39mOA9R9+cBBCX1ENMv+YQZSuqfSG9iPvzg0ewVp6iOCCqWRsfKGTFkwqHHhRxoUI0ophyS1I6DDm6xZuZjHFLdukI0jlIBopiiakwaUSshIBJqwHQOfkH8oCDBJaykuCQQ9RcOGPyJ9YCTPwU//AEpgq1QRXautQPMbwH/Lp2kpdDZqg0uBUM6Xezh4Z/mE0WmzNPiOgYd2FBtCPEZ3+ovvmL6Ve78qfQbQDR/4OcSOQkuQN3QHUGu4FxcQaYrEg1llyacl2GempADmmh2iIcfNf/yKcOXerqGVRfcihOsO/wAynOD4q6FxzGl7ep9TvANJMtOJNUyicycwIQ5IYOoan4H2dNnDopxLA+GalIHKNVEJDaOpxXXyiKnFzAGC1AUsSKABLU6JSP8A5Gwjv4+b/qTLv7xuFZwTucxfvWDsagyk4hKXKCwylyl9EpT3BdPcmEkYgUEskJcHlzAZSlwTVmzJer1DxH/GTWbxFMzM5a720qAfKEeIza/xV1/mIu723cvu9YQ1HRw3EW8JYZ3zBiGu+azQwYWewIlLIIcEJJBBTmf/AIgnsIR4nNIYzFnuom4YiujUaEOKTgABNWAAAAFEAMzMH6D0gB44fiNJajUigdiLg6A6MdaXiDNSQSFUIJB6EUIiSeJz/wDWmb+8q5ofXXd4iqWSSSXJLnck1JhbGhJy3INLaRxM4gMIGSY4qDZaF/Fq3hs2aVM/28Chxg2NOQoUKEaTpDtIUKLDohq7woUBuCOvChQB1MCXChQgYIeIUKAhE2gajChQA0GFChQjPSIaoQoUMnFQwwoUKh2GqhQoZOawjChRJuwoUKGb/9k=" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>A Viagem de Chihiro (2001)</h4>
+                    <p>Uma garota tenta salvar seus pais em um mundo místico habitado por espíritos e deuses.</p>
+                    <a href="https://youtu.be/WIhr6CQzF0s?si=mmjItb42UGWHDxY_" target="_blank">
+                        <img src="https://br.web.img3.acsta.net/pictures/210/527/21052756_20131024195513383.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Piratas do Caribe: A Maldição do Pérola Negra (2003)</h4>
+                    <p>Um pirata excêntrico e um jovem ferreiro enfrentam piratas amaldiçoados em busca de um tesouro perdido.</p>
+                    <a href="https://youtu.be/2PBYQDDkubM?si=bLuTxhc5ZdNBLho3" target="_blank">
+                    <img src="https://br.web.img3.acsta.net/pictures/14/02/06/15/11/493568.jpg" alt="Piratas do Caribe" class="play-image">
+                </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="romance" class="genre-section">
+            <h3>Romance</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>Titanic (1997)</h4>
+                    <p>Um casal de classes diferentes se apaixona a bordo do famoso navio condenado.</p>
+                    <a href="https://youtu.be/CHekzSiZjrY?si=Ih2WiGSS3QCvFY2U" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/2/22/Titanic_poster.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Orgulho e Preconceito (2005)</h4>
+                    <p>Elizabeth Bennet desafia normas sociais enquanto lida com sentimentos por um aristocrata reservado.</p>
+                    <a href="https://youtu.be/Ur_DIHs92NM?si=EWoZINph-Siwo6-O" target="_blank">
+                        <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/84/14/20028635.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Diário de uma Paixão (2004)</h4>
+                    <p>Uma história de amor eterno entre um casal contada ao longo de várias décadas.</p>
+                    <a href="https://youtu.be/DyfWPxB1pZM?si=LTwLZnBPVMQixUBk
+                    " target="_blank">
+                        <img src="https://br.web.img3.acsta.net/medias/nmedia/18/91/21/92/20135014.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Me Chame pelo Seu Nome (2017)</h4>
+                    <p>Um romance de verão entre um jovem e um estudante visitante na Itália dos anos 1980.</p>
+                    <a href="https://youtu.be/jy40CKcCjwk?si=c_ZiqVSM4999bZrn" target="_blank">
+                        <img src="https://br.web.img3.acsta.net/pictures/17/09/11/23/53/5940465.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>La La Land (2016)</h4>
+                    <p>Dois artistas apaixonados tentam equilibrar seus sonhos e seu relacionamento em Los Angeles.</p>
+                    <a href="https://youtu.be/zXvgkkNMi-4?si=bDehVorY_0oTPH0J" target="_blank">
+                        <img src="https://play-lh.googleusercontent.com/FwOJ7GNq5cBkHS7vGCqmVB56DxTQvJ6gkJtT7uGCmx_8SzFVadHy7iAREze4nWS2SwcoNGzK8i78OqJnJx4" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="thriller" class="genre-section">
+            <h3>Thriller</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>Seven: Os Sete Crimes Capitais (1995)  </h4>
+                    <p>Dois detetives investigam um assassino em série que usa os sete pecados capitais como inspiração para seus crimes.</p>
+                    <a href="https://youtu.be/_ZeWFddoohs?si=2orIj08MCN3MWk-d" target="_blank">
+                        <img src="https://br.web.img3.acsta.net/pictures/210/124/21012465_2013061319170245.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>O Silêncio dos Inocentes (1991)  </h4>
+                    <p>Uma agente do FBI busca a ajuda de um brilhante, mas perigoso, psiquiatra canibal para capturar um assassino em série.</p>
+                    <a href="https://youtu.be/_ZeWFddoohs?si=2orIj08MCN3MWk-d" target="_blank">
+                        <img src="https://br.web.img3.acsta.net/pictures/14/10/07/22/16/591185.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Zodíaco (2007) </h4>
+                    <p>Baseado em fatos reais, um grupo de jornalistas e policiais tenta desvendar a identidade do infame assassino Zodíaco.</p>
+                    <a href="https://youtu.be/gL4rP2prdfg?si=41Ctrj78iZB0KUyt" target="_blank">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMjU3NDUxNGYtYmRiNi00NjY1LThjZGItNWFkZWM1OGVjZjA0XkEyXkFqcGc@._V1_.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Ilha do Medo (2010)  </h4>
+                    <p>Dois detetives investigam o desaparecimento de uma paciente em um hospital psiquiátrico isolado, mas a verdade é muito mais obscura.</p>
+                    <a href="https://youtu.be/gL4rP2prdfg?si=41Ctrj78iZB0KUyt" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFRWIQ08iPvao0mpA-AlsaLju0q-KzinDajg&s" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Corra! (2017)  </h4>
+                    <p>Um jovem negro visita a família de sua namorada branca, mas o que parecia ser um encontro comum se transforma em um pesadelo assustador.</p>
+                    <a href="https://youtu.be/mDGV5UucTu8?si=2MHbpQ-YwWe1Nlp3
+                    " target="_blank">
+                        <img src="https://br.web.img3.acsta.net/pictures/17/04/19/21/08/577190.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="Terror" class="genre-section">
+            <h3>Terror</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>O Exorcista (1973)</h4>
+                    <p>Uma jovem é possuída por uma entidade demoníaca, e um padre tenta realizar um exorcismo para salvá-la.</p>
+                    <a href="https://youtu.be/PjD42P7BAaA?si=b9p70H-MapOmT8xI" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/a/a6/The_Exorcist_1973.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>Hereditário (2018)</h4>
+                    <p>Uma família lida com eventos sobrenaturais e segredos obscuros após a morte da matriarca.</p>
+                    <a href="https://youtu.be/Ui13PlmyZhQ?si=iTHwmF7HiXOELF2o" target="_blank">
+                        <img src="https://br.web.img3.acsta.net/pictures/18/06/14/13/11/1751062.jpg" alt="Clique para assistir" class="play-image">
+                    </a>
+                </div>
+                <div class="card">
+                    <h4>It: A Coisa (2017)</h4>
+                    <p>Um grupo de crianças enfrenta um palhaço demoníaco que se alimenta de seus medos.</p>
+                    <a href="https://youtu.be/dD264ZjfKlk?si=FydasBVvR3xqK03q" target="_blank">
+                    <img src="https://br.web.img3.acsta.net/pictures/17/03/30/22/44/345288.jpg" alt="Clique para assistir" class="play-image">
+                </a>
+            </div>
+            <div class="card">
+                <h4>4. O Iluminado (1980)</h4>
+                <p>Um homem enlouquece enquanto trabalha como zelador em um hotel isolado e assombrado.</p>
+                <a href="https://youtu.be/dSQ3yN5yJ0g?si=AzpA18rV7HFF3Abr" target="_blank">
+                    <img src="https://br.web.img3.acsta.net/pictures/14/10/10/19/21/152595.jpg" class="O Iluminado">]
+                </a>
+            </div>
+            <div class="card">
+                <h4>O Mal que nos Habita (2023)</h4>
+                <p>Dois irmãos encontram um homem infectado pelo demônio prestes a dar à luz ao próprio mal. Na tentativa de se livrar desse homem, os irmãos acabam ajudando a desencadear o próprio inferno.</p>
+                <a href="https://youtu.be/RNLsXOmnbT0?si=YuPkCdsSz7rMYSle" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGb5qw_en-4FVLHbOaVYFrj7DqPGlRVM4Jv4dWVbYDlfBiUAY" class="O Mal que nos Habita">
+                </a>
+            </div>
+        </section>
+        <section id="comedia" class="genre-section">
+            <h3>Comédia</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>As Branquelas (2004)</h4>
+                    <p>Dois agentes disfarçados como socialites brancas se metem em confusões.</p>
+                    <a href="https://youtu.be/seoJIPLLWp0?si=i5NBNRDXyilzJ4JP" target="_blank">
+                    <img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/97/52/82/20534159.jpg" alt="As Branquelas">
+                </a>
+                </div>
+                <div class="card">
+                    <h4>Se Beber, Não Case! (2009)</h4>
+                    <p>Três amigos acordam após uma despedida de solteiro e tentam refazer os passos da noite.</p>
+                    <a href="https://youtu.be/J4VLhm84gJ8?si=5lk_GTBAcVDZ1_02" target="_blank"> 
+                    <img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/29/37/19874003.jpg" alt="Se Beber, Não Case!"class="play-image">
+                </a>
+                </div>
+                <div class="card">
+                    <h4>Superbad: É Hoje (2007)</h4>
+                    <p>Dois adolescentes inseguros enfrentam situações hilárias enquanto tentam conseguir álcool para uma festa.</p>
+                    <a href="https://youtu.be/J4VLhm84gJ8?si=5lk_GTBAcVDZ1_02" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/8/8b/Superbad_Poster.png" alt="Superbad: É Hoje"class="play-image">
+                </a>
+                </div>
+                <div class="card">
+                    <h4>Debi & Lóide: Dois Idiotas em Apuros (1994)</h4>
+                    <p>Dois amigos excêntricos embarcam em uma viagem cheia de absurdos.</p>
+                    <a href="https://youtu.be/QXMkxujaq7Y?si=MjLBdu_L74Gxdxsh" target="_blank">
+                    <img src="https://br.web.img3.acsta.net/pictures/210/542/21054207_20131030221640204.jpg" alt="Debi & Lóide: Dois Idiotas em Apuros"class="play-image">
+                </a>
+                </div>
+                <div class="card">
+                    <h4>Gente Grande (2010)</h4>
+                    <p>Um grupo de amigos se reúne anos após a formatura para relembrar os velhos tempos.</p>
+                    <a href="https://youtu.be/uMs25nhLDko?si=anj9tTro8_HeNeji" target="_blank"> 
+                    <img src="https://br.web.img3.acsta.net/pictures/210/299/21029996_20130821205722213.jpg" alt="Gente Grande"class="play-image">
+                </a>
+                </div>
+            </div>
+        </section>
+        <section id="aventura" class="genre-section">
+            <h3>Aventura</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>Indiana Jones e os Caçadores da Arca Perdida (1981)</h4>
+                    <p>O arqueólogo Indiana Jones enfrenta nazistas para recuperar uma relíquia sagrada.</p>
+                    <a href="https://youtu.be/WIhr6CQzF0s?si=mmjItb42UGWHDxY_" target="_blank"> 
+                    <img src="https://br.web.img3.acsta.net/medias/nmedia/18/91/97/58/20172484.jpg" alt="Indiana Jones"class="play-image">
+                </a>
+                </div>
+                <div class="card">
+                    <h4>Jumanji: Bem-vindo à Selva (2017)</h4>
+                    <p>Um grupo de adolescentes é transportado para um videogame e precisa sobreviver.</p>
+                    <a href="https://youtu.be/tnpV3q8Q3gg?si=Oaw5KYSo4AbIzM9y" target="_blank"> 
+                    <img src="https://br.web.img3.acsta.net/pictures/20/01/28/22/12/4169305.jpg" alt="Jumanji"class="play-image">
+                </a>
+                   
+                </div>
+                <div class="card">
+                    <h4>Avatar (2009)</h4>
+                    <p>Um ex-fuzileiro se envolve em um conflito em um planeta alienígena enquanto vive como um avatar.</p>
+                    <a href="https://youtu.be/5PSNL1qE6VY?si=7iGTUvrcr537bUtr" target="_blank">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_.jpg" alt="Avatar"class="play-image">
+                </a>
+                </div>
+                <div class="card">
+                    <h4>Jurassic Park (1993)</h4>
+                    <p>Os paleontólogos Alan Grant, Ellie Sattler e o matemático Ian Malcolm fazem parte de um seleto grupo escolhido para visitar uma ilha habitada por dinossauros criados a partir de DNA pré-histórico.</p>
+                    <a href="https://youtu.be/WIhr6CQzF0s?si=mmjItb42UGWHDxY_" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Jurassic_Park_poster.jpg" alt="Jurassic Park" class="play-image">
+                </a>
+                </div>
+                <div class="card">
+                    <h4>Rango (2011)</h4>
+                    <p>Um camaleão que viveu como um animal de estimação se encontra em uma crise de identidade.</p>
+                    <a href="https://youtu.be/WIhr6CQzF0s?si=mmjItb42UGWHDxY_" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/7/7d/Rango_p%C3%B4ster.jpg" alt="Rango" class="play-image">
+                </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Biblioteca de Filmes &copy; 2025</p>
+    </footer>
+</body>
+</html>
