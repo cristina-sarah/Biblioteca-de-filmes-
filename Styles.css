@@ -1,19 +1,19 @@
 
 .recommendations-and-releases {
-    display: flex; /* Utiliza flexbox para organizar as seções lado a lado */
-    justify-content: space-between; /* Garante que as seções fiquem com espaço entre elas */
-    gap: 20px; /* Espaço entre as seções */
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px;
 }
 
 .genre-section {
-    flex: 1; /* Faz cada seção ocupar o mesmo espaço disponível */
-    padding: 10px; /* Adiciona algum padding dentro de cada seção */
+    flex: 1; 
+    padding: 10px; 
 }
 
 .grid {
-    display: grid; /* Usa o grid para organizar os filmes dentro de cada seção */
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsivo */
-    gap: 15px; /* Espaço entre os cards */
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 15px; 
 }
 
 *{
